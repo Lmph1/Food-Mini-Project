@@ -1,0 +1,130 @@
+body{
+    font-family: 'Nokora', sans-serif;
+}
+.disabled{
+    display: none;
+}
+.nav-link
+{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.nav-item .nav-link
+{
+    color: black;
+    font-size:30px;
+}
+.nav-item .nav-link
+{
+    color: black;
+}
+.nav-link:hover
+{
+   color: white;
+   background-color:brown;
+   border-radius:10px;
+}
+.header{
+    background-color: white;
+    padding: 0;
+}
+.color-background
+{
+    background-color:black;
+}
+/* .background-image{
+    height: 620px;
+    background-image : url("Image/khmer-foods.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+.menu{
+    padding: 20px;
+}
+a.logo{
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+    color: brown;
+}
+a.logo:hover{
+    color: blue;
+    border-bottom: solid 2px blue;
+}
+ul li.nav-item a{
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    color: brown;
+}
+ul li.nav-item a.active{
+    color: blue;
+    border-bottom: solid 2px blue;
+}
+ul li.nav-item a:hover{
+    border-bottom: solid 2px blue;
+}
+/* ============================================================= */
+.space-top{
+    margin-top: 50px;
+}
+.food-image,
+.welcome-image{
+    height: 300px;
+    padding: 0;
+}
+.welcome-image img{
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.food-image img{
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.food-text,
+.welcome-text{
+    text-align: center;
+}
+.food-text h1,
+.welcome-text h1{
+    padding: 50px;
+    color: blue;
+    border-bottom: solid 2px blue;
+}
+.food-text p,
+.welcome-text p{
+    color: black;
+    padding: 10px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+}
+.food-text img{
+    width: 30%;
+    height: 30%;
+    border-radius:50%;
+}
+/* ============================================================= */
+.footer{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #cccccc;
+}
+.footer h1{
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 700;
+}
+.footer p{
+    padding: 10px;
+    font-weight: 700;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 20px;
+}

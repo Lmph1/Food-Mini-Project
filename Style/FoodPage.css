@@ -1,0 +1,150 @@
+body{
+    font-family: 'Khmer OS Siemreap';
+}
+ul li.nav-item a.disabled{
+    display: none;
+    color: black;
+}
+.nav-item .nav-link
+{
+    color: black;
+}
+
+.header{
+    background-color: white;
+    padding: 0;
+}
+.nav-link:hover
+{
+   color: white;
+   background-color:brown;
+   border-radius:10px;
+}
+.menu{
+    padding: 20px;
+}
+a.logo{
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+}
+a.logo img{
+    width: 180px;
+    height:160px;
+}
+a.logo img:hover
+{
+    background-color:brown
+}
+a.logo:hover{
+    /* color: blue;
+    border-bottom: solid 2px blue;
+    border-radius: 10px; */
+    color: white;
+    border-radius: 10px;
+    background-color:brown;
+    border-bottom: solid 2px blue;
+}
+ul li.nav-item a{
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    color: gray;
+}
+ul li.nav-item a.active{
+    color: blue;
+    border-bottom: solid 2px blue;
+}
+ul li.nav-item a:hover{
+    border-bottom: solid 2px blue;
+}
+/*===========================================*/
+.sort{
+    margin-top: 30px;
+}
+.sort .card-body{
+    text-align: right;
+}
+.card-body .btn-group:hover ul.dropdown-menu{
+    display: block;
+}
+/*===========================================*/
+.space-top{
+    margin-top: 10px;
+}
+.foodcard{
+    margin: 10px;
+    height: 500px;
+    overflow: hidden;
+}
+.foodcard img{
+    width: 100%;
+    transition: 300ms;
+    object-fit: cover;
+    transition: 300ms;
+}
+.foodcard:hover img{
+    transform: scale(1.1);
+}
+/*===========================================*/
+.footer{
+    margin-top: 30px;
+    text-align: center;
+    background-color: #cccccc;
+}
+.footer h1{
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 700;
+}
+.footer p{
+    padding: 10px;
+    font-weight: 700;
+}
+.footer a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/*================================================*/
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	ul li.nav-item a.disabled{
+        display: block;
+    }
+    ul li.nav-item a{
+        display: none;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+	ul li.nav-item a.disabled{
+        display: block;
+    }
+    ul li.nav-item a{
+        display: none;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	ul li.nav-item a.disabled{
+        display: block;
+    }
+    ul li.nav-item a{
+        display: none;
+    }
+    .footer h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
